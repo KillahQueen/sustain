@@ -1,0 +1,99 @@
+.navbar-toggler {
+    outline: none !important;
+  }
+  .nav-icon{
+      height: 85px;
+  }
+  .toggler-icon {
+    font-size: 40px;
+    color: orange;
+  }
+  .nav-link {
+    color: grey;
+    font-size: 1.2rem;
+    transition: all 1s ease-in-out;
+    font-family: Amaranth;
+  }
+  .nav-link:hover {
+      color: orange;
+  }
+  #banner {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #banner::after {
+      width: 100%;
+      height: 100%;
+      content: "";
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      background: rgba(0,0,0,0.2);
+  }
+#banner video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+    
+}
+#banner .caption {
+    position: relative;
+    z-index: 20;
+    color: white;
+    font-family: Amaranth;
+}
+
+.container button {
+background: gray !important;
+border: none !important;
+align-items: center !important;
+transition: all 1s linear;
+}
+.container button:hover {
+    background-color: white !important;
+    color: gray !important;
+    border: solid black 0.1rem !important;
+
+}
+.container h3{
+    display: flex;
+    align-items: center;
+    color: orange;
+    font-family: Amaranth;
+}
+.blog {
+    color: gray;
+    font-family: Amaranth;
+    align-self: center;
+}
+.flex-wrap {
+    size: 3.5rem;
+    color: gray;
+    transition: all 1s linear;
+}
+.flex-wrap:hover {
+    color: orange;
+}
+.footer-title {
+background: black;
+color: orange;
+}
+.footer-contact {
+background: orange;
+color:black;
+
+}
+.footer-icon {
+    font-size: 1.5rem;
+    color: white;
+    transition: all 1s ease-in-out;
+  }
+  .footer-icon:hover {
+    color: orange;
+  }

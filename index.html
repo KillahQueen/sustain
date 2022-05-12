@@ -1,0 +1,200 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "normalize.css" />
+
+        <link rel = "stylesheet"
+          type = "text/css"
+          href = "index.css" />
+
+        <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f00ff829e0.js"
+      crossorigin="anonymous"
+    ></script>
+    </head>
+    <body>
+        <header id="header">
+            <nav class="navbar navbar-expand-lg px-4">
+                <a href="#" class="navbar-brand">
+                    <img class="nav-icon" src="data:image/png;base64,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"/>
+                </a>
+            <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#myNavbar">
+
+                <span class="toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav text-capitalize mx-auto">
+                    <li class="nav-item active">
+                        <a href="#About Us" class="nav-link">About US</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#Products" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#Our Climate Pledge" class="nav-link">Our Climate Pledge</a>
+                    </li>
+                </ul>
+
+            </div>
+            </nav>
+            <div id="banner">
+                <video
+                loop
+                muted
+                autoplay
+                preload="auto">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <div class="caption">
+                    <h2>Sustainable Recreation</h2>
+                </div>
+                
+            </div>
+
+        </header>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mx-auto"> 
+                    <h3 class="justify-content-center">Wellness</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                <button class="btn btn-primary justify-content-center">
+                    Visit Site
+                </button>
+            </div>
+        
+                <div class="col-lg-3 mx-auto">
+                    <h3 class="justify-content-center">Surfing</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                    <button class="btn btn-primary justify-content-center">
+                        Visit Site
+                    </button>   
+                </div>
+                <div class="col-lg-3 mx-auto"> 
+                    <h3 class="justify-content-center">Culinary</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                    <button class="btn btn-primary justify-content-center">
+                        Visit Site
+                    </button>   
+                </div>
+                <div class="col-lg-3 mx-auto">
+                    <h3 class="justify-content-center">Martial Arts</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                    <button class="btn btn-primary justify-content-center">
+                        Visit Site
+                    </button>  
+                </div>
+            </div>
+
+        </div>
+        <br><br><br>
+        <div>
+            <a class="twitter-timeline" data-width="900" data-height="350" href="https://twitter.com/Sustaino_eg?ref_src=twsrc%5Etfw">Tweets by Sustaino_eg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-lg-4 wrap"> 
+                    <a href="#" class="flex-wrap">Benefits of Ayurveda, Yoga and Detox</a>
+                </div>
+                <div class="col-lg-4 wrap"> 
+                    <a href="#" class="flex-wrap">Benefits of Fitness, Yoga and Detox</a>
+                </div>
+                <div class="col-lg-4 wrap"> 
+                    <a href="#" class="flex-wrap">Benefits of Fitness, Ayurveda and Detox</a>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <footer>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 footer-title py-3">
+                  <h1 class="text-capitalize text-center">
+                    <strong class="banner-title">Sustainotrip</strong>
+                  </h1>
+                  <div
+                    class="footer-icons mt-3 d-flex justify-content-around flex-wrap"
+                  >
+                    <a href="#" class="footer-icon">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="footer-icon">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer-icon">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-icon">
+                      <i class="fab fa-google-plus"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 footer-contact text-capitalize text-center p-3">
+                  <h3 class="mb-5">contact</h3>
+                  <p class="d-flex flex-wrap">
+                    <span class="mr-4 footer-icon">
+                      <i class="fas fa-map"></i>
+                    </span>
+                    <span>
+                      Amsterdam, Netherlands
+                    </span>
+                  </p>
+                  <p class="d-flex flex-wrap">
+                    <span class="mr-4 footer-icon">
+                      <i class="fas fa-phone"></i>
+                    </span>
+                    <span>
+                      111-222-333
+                    </span>
+                  </p>
+                  <p class="d-flex flex-wrap text-lowercase">
+                    <span class="mr-4 footer-icon">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>
+                      sustainotrip@gmail.com
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoftmJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+
+</html>
